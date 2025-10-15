@@ -1,24 +1,24 @@
 const PRODUCTS = [
-  { id:1, name:"Naruto Figure", imageURL:"./products/Naruto Figure.webp", description:"Limited edition Uzumaki Naruto figurine, highly detailed, perfect for collectors and anime fans.", affiliateLink:"#affiliate_link_01" },
-  { id:2, name:"AOT T-Shirt", imageURL:"./products/AOT T-Shirt.jpg", description:"Official Attack on Titan Survey Corps logo shirt, premium cotton, all sizes available.", affiliateLink:"#affiliate_link_02" },
-  { id:3, name:"Demon Slayer Mug", imageURL:"./products/Demon Slayer Mug.jpg", description:"Ceramic mug featuring Tanjiro Kamado, microwave safe, full color print.", affiliateLink:"#affiliate_link_03" },
-  { id:4, name:"One Piece Cap", imageURL:"./products/One Piece Cap.webp", description:"Snapback cap, Straw Hat Pirates theme, adjustable, sturdy embroidery.", affiliateLink:"#affiliate_link_04" },
-  { id:5, name:"Dragon Ball Poster", imageURL:"./products/Dragon ball poster.webp", description:"High-res wall poster of Goku, A2 size, colorfast and tear-resistant.", affiliateLink:"#affiliate_link_05" },
-  { id:6, name:"Pokemon Ball Belt", imageURL:"./products/Pokemon Ball Belt.webp", description:"Official Pokemon Trainer belt with two Poké Balls and Pikachu figurine.", affiliateLink:"#affiliate_link_06" },
-  { id:7, name:"My Hero Academia Keychain", imageURL:"./products/My Hero Keychain.jpg", description:"Acrylic keychain set featuring Midoriya and other heroes, sturdy clasp.", affiliateLink:"#affiliate_link_07" },
-  { id:8, name:"Ken Kaneki Figure", imageURL:"./products/Ghoul Mask.webp", description:"A collectible figurine of Ken Kaneki from Tokyo Ghoul.", affiliateLink:"#affiliate_link_08" },
-  { id:9, name:"Sailor Moon Pen", imageURL:"./products/Sailor Moon Pen.webp", description:"Moon Stick ballpen, cute collectible for journaling and drawing.", affiliateLink:"#affiliate_link_09" },
-  { id:10, name:"Bleach Hoodie", imageURL:"./products/Bleach Hoodie.jpg", description:"Thick fleece hoodie with Ichigo design, kangaroo pocket, unisex fit.", affiliateLink:"#affiliate_link_10" },
-  { id:11, name:"Haikyuu T-Shirt", imageURL:"./products/Haikyuu Shorts.jpg", description:"Karasuno volleyball club T-shirt, moisture-wick material, various sizes.", affiliateLink:"#affiliate_link_11" },
-  { id:12, name:"Spy x Family Notebook", imageURL:"./products/Spy Notebook.jpg", description:"Hardcover notebook with Anya Forger, 120 blank creamy pages.", affiliateLink:"#affiliate_link_12" },
-  { id:13, name:"Gojo figure", imageURL:"./products/Gojo.webp", description:"A collectible figurine of Gojo Satoru from Jujutsu Kaisen.", affiliateLink:"#affiliate_link_13" },
-  { id:14, name:"Kurosaki Ring", imageURL:"./products/Kurosaki Ring.jpg", description:"Adjustable metal ring inspired by Ichigo's Hollow mask, nickel-free.", affiliateLink:"#affiliate_link_14" },
-  { id:15, name:"Attack Titan Figure", imageURL:"./products/Titan Figure.webp", description:"Colossal Titan figure, detailed sculpt, limited edition run.", affiliateLink:"#affiliate_link_15" },
-  { id:16, name:"Nezuko Figure", imageURL:"./products/Nezuko.webp", description:"A fun collectible figurine of Nezuko from Demon Slayer.", affiliateLink:"#affiliate_link_16" },
-  { id:17, name:"Zenitsu Figure", imageURL:"./products/Zenitsu.webp", description:"A collectible figurine of Zenitsu from Demon Slayer with vivid colors.", affiliateLink:"#affiliate_link_17" },
-  { id:18, name:"DBZ Badge", imageURL:"./products/DBZ Badge.webp", description:"A collectible badge featuring iconic Dragon Ball Z imagery.", affiliateLink:"#affiliate_link_18" },
-  { id:19, name:"Light Yagami Figure", imageURL:"./products/Death Note.webp", description:"A collectible figurine of Light from Death Note, holding the journal.", affiliateLink:"#affiliate_link_19" },
-  { id:20, name:"Inosuke Figure", imageURL:"./products/Inosuke.webp", description:"Inosuke Hashibira collectible figure from Demon Slayer, highly detailed.", affiliateLink:"#affiliate_link_20" }
+  { id:1, name:"Naruto Figure", imageURL:"./Naruto Figure.webp", description:"Limited edition Uzumaki Naruto figurine, highly detailed, perfect for collectors and anime fans.", affiliateLink:"#affiliate_link_01" },
+  { id:2, name:"AOT T-Shirt", imageURL:"./AOT T-Shirt.jpg", description:"Official Attack on Titan Survey Corps logo shirt, premium cotton, all sizes available.", affiliateLink:"#affiliate_link_02" },
+  { id:3, name:"Demon Slayer Mug", imageURL:"./Demon Slayer Mug.jpg", description:"Ceramic mug featuring Tanjiro Kamado, microwave safe, full color print.", affiliateLink:"#affiliate_link_03" },
+  { id:4, name:"One Piece Cap", imageURL:"./One Piece Cap.webp", description:"Snapback cap, Straw Hat Pirates theme, adjustable, sturdy embroidery.", affiliateLink:"#affiliate_link_04" },
+  { id:5, name:"Dragon Ball Poster", imageURL:"./Dragon ball poster.webp", description:"High-res wall poster of Goku, A2 size, colorfast and tear-resistant.", affiliateLink:"#affiliate_link_05" },
+  { id:6, name:"Pokemon Ball Belt", imageURL:"./Pokemon Ball Belt.webp", description:"Official Pokemon Trainer belt with two Poké Balls and Pikachu figurine.", affiliateLink:"#affiliate_link_06" },
+  { id:7, name:"My Hero Academia Keychain", imageURL:"./My Hero Keychain.jpg", description:"Acrylic keychain set featuring Midoriya and other heroes, sturdy clasp.", affiliateLink:"#affiliate_link_07" },
+  { id:8, name:"Ken Kaneki Figure", imageURL:"./Ghoul Mask.webp", description:"A collectible figurine of Ken Kaneki from Tokyo Ghoul.", affiliateLink:"#affiliate_link_08" },
+  { id:9, name:"Sailor Moon Pen", imageURL:"./Sailor Moon Pen.webp", description:"Moon Stick ballpen, cute collectible for journaling and drawing.", affiliateLink:"#affiliate_link_09" },
+  { id:10, name:"Bleach Hoodie", imageURL:"./Bleach Hoodie.jpg", description:"Thick fleece hoodie with Ichigo design, kangaroo pocket, unisex fit.", affiliateLink:"#affiliate_link_10" },
+  { id:11, name:"Haikyuu T-Shirt", imageURL:"./Haikyuu Shorts.jpg", description:"Karasuno volleyball club T-shirt, moisture-wick material, various sizes.", affiliateLink:"#affiliate_link_11" },
+  { id:12, name:"Spy x Family Notebook", imageURL:"./Spy Notebook.jpg", description:"Hardcover notebook with Anya Forger, 120 blank creamy pages.", affiliateLink:"#affiliate_link_12" },
+  { id:13, name:"Gojo figure", imageURL:"./Gojo.webp", description:"A collectible figurine of Gojo Satoru from Jujutsu Kaisen.", affiliateLink:"#affiliate_link_13" },
+  { id:14, name:"Kurosaki Ring", imageURL:"./Kurosaki Ring.jpg", description:"Adjustable metal ring inspired by Ichigo's Hollow mask, nickel-free.", affiliateLink:"#affiliate_link_14" },
+  { id:15, name:"Attack Titan Figure", imageURL:"./Titan Figure.webp", description:"Colossal Titan figure, detailed sculpt, limited edition run.", affiliateLink:"#affiliate_link_15" },
+  { id:16, name:"Nezuko Figure", imageURL:"./Nezuko.webp", description:"A fun collectible figurine of Nezuko from Demon Slayer.", affiliateLink:"#affiliate_link_16" },
+  { id:17, name:"Zenitsu Figure", imageURL:"./Zenitsu.webp", description:"A collectible figurine of Zenitsu from Demon Slayer with vivid colors.", affiliateLink:"#affiliate_link_17" },
+  { id:18, name:"DBZ Badge", imageURL:"./DBZ Badge.webp", description:"A collectible badge featuring iconic Dragon Ball Z imagery.", affiliateLink:"#affiliate_link_18" },
+  { id:19, name:"Light Yagami Figure", imageURL:"./Death Note.webp", description:"A collectible figurine of Light from Death Note, holding the journal.", affiliateLink:"#affiliate_link_19" },
+  { id:20, name:"Inosuke Figure", imageURL:"./Inosuke.webp", description:"Inosuke Hashibira collectible figure from Demon Slayer, highly detailed.", affiliateLink:"#affiliate_link_20" }
 ];
 
 function renderCarousel(container, productsArray) {
@@ -87,4 +87,5 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('keydown', e => {
     if (e.key === "Escape") closeModal();
   });
+
 });
