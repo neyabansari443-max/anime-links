@@ -81,14 +81,35 @@ body {
 
 .site-header h1 {
   font-size: 2.5rem;
-  margin: 0 0 10px 0;
+  margin: 10px 0;
   font-weight: 700;
   letter-spacing: -1px;
+}
+
+.site-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 10px rgba(0, 210, 255, 0.5));
+  animation: floatGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes floatGlow {
+  0% {
+    transform: translateY(0);
+    filter: drop-shadow(0 0 10px rgba(0, 210, 255, 0.5));
+  }
+
+  100% {
+    transform: translateY(-10px);
+    filter: drop-shadow(0 0 20px rgba(0, 210, 255, 0.8));
+  }
 }
 
 .site-header .highlight {
   background: var(--accent-gradient);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -159,10 +180,15 @@ body {
   font-size: 1.05rem;
 }
 
-.link-btn i {
+.link-btn i,
+.link-btn img {
   font-size: 1.1rem;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
   color: var(--text-secondary);
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 4px;
 }
 
 .link-btn:hover {
